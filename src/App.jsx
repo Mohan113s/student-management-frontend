@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:8080/api/students';
+const API_URL = 'https://student-management-backend-8du7.onrender.com/api/students';
 
 const initialForm = {
   name: '',
